@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+/* Brand Logo Style */
+
+.webstudio {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+p .logo {
+    color:#4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+/* Navigation Section */
+
+.navigation {
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.navigation-contact {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+a {
+    text-decoration: none;
+    color:#2E2F42
+}
+
+/* Main Banner */
+
+.main-banner {
+    background-color: #2E2F42;
+}
+
+/* Header 1 */
+
+.main-banner .banner-text {
+    font-family: Roboto;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    width: 496px;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+

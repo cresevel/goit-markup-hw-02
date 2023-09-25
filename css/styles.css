@@ -4,12 +4,23 @@ body {
     color: #2E2F42
 }
 
+h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
 ul {
     list-style: none;
     padding: 0%;
 }
-
-/* Brand Logo Style */
+/* Header Logo Style */
 
 .webstudio {
     color: #2E2F42;
@@ -20,9 +31,8 @@ ul {
     line-height: 21px;
     /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
-p .logo {
+.logo {
     color:#4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -31,7 +41,11 @@ p .logo {
     line-height: 21px;
     /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
 }
 
 /* Navigation Section */
@@ -46,6 +60,7 @@ p .logo {
     letter-spacing: 0.32px;
 }
 
+
 .navigation-contact {
     color: #2E2F42;
     font-family: Roboto;
@@ -56,11 +71,6 @@ p .logo {
     letter-spacing: 0.32px;
 }
 
-a {
-    text-decoration: none;
-    color:#2E2F42
-}
-
 /* Main Banner */
 
 .main-banner {
@@ -69,7 +79,9 @@ a {
 
 /* Header 1 */
 
-.main-banner .banner-text {
+h1 {
+    margin: 0px 472px 0px 472px;
+    text-align: center;
     font-family: Roboto;
     color: #FFFFFF;
     text-align: center;
@@ -77,7 +89,8 @@ a {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
-    width: 496px;
+    width: 618px;
+    text-transform: uppercase;
 }
 
 .button {
@@ -85,3 +98,37 @@ a {
     color: #FFFFFF;
 }
 
+
+/* Footer */
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.webstudio-footer {
+    color:#F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+p .footer-logo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer-link {
+    color:#FFFFFF;
+}

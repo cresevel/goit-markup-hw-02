@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42
+    color: #2E2F42;
 }
 
 h2 {
@@ -19,10 +19,13 @@ h2 {
 ul {
     list-style: none;
     padding: 0%;
+    margin: 0%;
 }
+
 /* Header Logo Style */
 
 .webstudio {
+    margin: 0px 0px 0px 156px;
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
@@ -32,6 +35,7 @@ ul {
     /* 116.667% */
     letter-spacing: 0.54px;
 }
+
 .logo {
     color:#4D5AE5;
     font-family: Raleway;
@@ -50,7 +54,15 @@ a {
 
 /* Navigation Section */
 
+nav.menu {
+    margin: 24px 0px 24px 0px;
+}
+
 .navigation {
+    margin: 0px 0px 0px 0px;
+    top: 0;
+    position: absolute;
+    padding: 0px 0px 10px 347px;
     color:#2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -60,7 +72,22 @@ a {
     letter-spacing: 0.32px;
 }
 
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    display: block;
+    padding: 24px 40px 0px 0px;
+}
+
 .navigation-contact {
+    width: 483px;
+    margin: 0;
+    padding:0%;
+    position: absolute;
+    top: 0;
+    right:0;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -69,6 +96,36 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+.navigation-contact li {
+    display: inline-block;
+}
+
+.navigation-contact li a {
+    display: block;
+    padding: 24px 40px 0px 0px;
+}
+
+.content-header {
+    min-width: 1440px;
+    min-height: 72px;
+}
+.menu .item {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.navigation-contact .item {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
 
 /* Hovered links */
 .navigation :hover, :active {
@@ -81,16 +138,17 @@ a {
 
 }
 
+
 /* Main Banner */
 
 .main-banner {
+    padding: 188px 0px 0px 0px;
     background-color: #2E2F42;
 }
 
 /* Header 1 */
 
 h1 {
-    margin: 0px 472px 0px 472px;
     text-align: center;
     font-family: Roboto;
     color: #FFFFFF;
@@ -100,7 +158,10 @@ h1 {
     line-height: 60px;
     letter-spacing: 1.12px;
     width: 618px;
-    text-transform: uppercase;
+}
+
+h1.banner-text {
+    padding: 0px 472px 0px 472px;
 }
 
 .button {
@@ -114,6 +175,10 @@ h1 {
 
 .button:hover {
     background-color: #404BBF;
+}
+
+.banner-button {
+    padding: 0px 635px 188px 687px;
 }
 
 

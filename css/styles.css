@@ -306,7 +306,6 @@ li.portfolio-image {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid #E7E9FC;
     background: #FFF;
     gap: 32px;
     flex-shrink: 0;
@@ -314,8 +313,8 @@ li.portfolio-image {
 
 
 .card-title {
-    margin: 0;
-    padding: 0px 16px;
+    margin-top: -32px;
+    padding: 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,6 +322,10 @@ li.portfolio-image {
     gap: 8px;
     align-self: stretch;
     box-sizing: border-box;
+    height: 160px;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;

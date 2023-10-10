@@ -131,9 +131,7 @@ nav.menu {
     justify-content: flex-end;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover {
     text-decoration: none;
 }
 
@@ -254,7 +252,105 @@ li.team-member {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+/* Portfolio Page */
 
+.button-row {
+    margin: 0px 427px;
+    display: flex;
+    padding: 12px 0%;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.portfolio-button {
+    margin: 0px 24px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    gap: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    color:#4D5AE5;
+    background: #F4F4FD;
+}
+
+.portfolio-button:hover {
+    border-radius: 4px;
+    color:#FFF;
+    cursor: pointer;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+ul.row-one, .row-two, .row-three {
+    margin: 0 156px;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    
+}
+
+li.portfolio-image {
+    margin: 40px 8px;
+    padding-bottom: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: 362px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+
+.card-title {
+    margin: 0;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    box-sizing: border-box;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.card-subtitle {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    box-sizing: border-box;
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
 
 
 /* Footer */
@@ -262,7 +358,7 @@ li.team-member {
 
 .footer {
     margin: 0;
-    padding: 101px 1020px 100px 156px;
+    padding: 101px 999px 100px 156px;
     height: 312px;
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -273,11 +369,11 @@ li.team-member {
 .webstudio-footer {
     margin: 0;
     color:#F4F4FD;
-    font-family: Raleway;
-    font-size: 18px;
+    font-family: Roboto;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }

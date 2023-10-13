@@ -151,15 +151,23 @@ a:hover {
 
 /* Main Banner */
 
-.main-banner {
+.home-banner {
     margin: 0;
     padding: 0;
     max-height: 600px;
-    background-color: #2E2F42;
+    background-color:#2E2F42;
 }
 
 
 /* Header 1 */
+
+.home-banner {
+    height: 600px;
+    background-image: url(/images/homepage-banner.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 120px;
+}
 
 h1.banner-text {
     padding: 188px 292px 48px 292px;
@@ -172,22 +180,19 @@ h1.banner-text {
 }
 
 
-.button {
-    font-family: roboto;
+.order-button {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #4D5AE5;
+    margin: 0px 635px 188px 636px;
+    padding: 16px 32px;
     font-size: 16px;
-    width: 169px;
-    height: 56px;
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-.button:hover {
-    background-color: #404BBF;
-}
-
-.banner-button {
-    margin: 0;
-    padding: 16px 32px 188px 32px;
+.order-button:hover {
+    background: #4D5AE5;
 }
 
 
@@ -373,13 +378,12 @@ li.portfolio-image {
 .webstudio-footer {
     margin: 0;
     color:#F4F4FD;
-    font-family: Roboto;
+    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 24px;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 p .footer-logo {
@@ -398,4 +402,10 @@ p .footer-logo {
 
 .footer-link {
     color:#FFFFFF;
+}
+
+.social-links {
+    flex-shrink: 0;
+    display: flex;
+    gap: 8px;
 }

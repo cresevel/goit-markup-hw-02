@@ -243,7 +243,14 @@ h1.banner-text {
 
 /* Section 1 */
 
-
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
 
 ul.section-one-items {
     padding-top: 120px;
@@ -252,11 +259,6 @@ ul.section-one-items {
     flex-direction: row;
     align-items: flex-start;
     gap: 8px;
-}
-
-.svg {
-    padding: 24px 100px 24px 100px;
-    background-color: #E7E9FC;
 }
 
 

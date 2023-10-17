@@ -248,7 +248,6 @@ h1.banner-text {
     width: 1em;
     height: 1em;
     stroke-width: 0;
-    stroke: #4D5AE5;
     fill: #F4F4FD;
 }
 
@@ -281,6 +280,13 @@ ul.section-two-items {
 .svg {
     padding: 24px 100px 24px 100px;
     background-color: #F4F4FD;
+}
+
+.ellipse {
+  display: flex;
+    flex-shrink: 0;
+    padding: 12px;
+    background-image: url(images/Ellipse.svg);
 }
 
 /* Section 3 */

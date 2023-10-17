@@ -248,8 +248,8 @@ h1.banner-text {
     width: 1em;
     height: 1em;
     stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+    stroke: #4D5AE5;
+    fill: #F4F4FD;
 }
 
 ul.section-one-items {

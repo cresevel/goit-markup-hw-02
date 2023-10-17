@@ -306,8 +306,24 @@ li.team-member {
 
 .socmed-icons {
     display: flex;
-    justify-content: space-around;
+    box-sizing: border-box;
     width: 100%;
+}
+
+.social-footer {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.socmed-footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 .socmed-svg {
@@ -349,7 +365,7 @@ li.team-member {
     border-radius: 4px;
     color:#FFF;
     cursor: pointer;
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 

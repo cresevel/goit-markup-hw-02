@@ -276,6 +276,15 @@ li.team-member {
     background-image: url (https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
 }
 
+.team-social-icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    column-gap: 12px;
+    padding-bottom: 32px;
+}
+}
+
 .ellipse {
     display: flex;
     flex-shrink: 0;

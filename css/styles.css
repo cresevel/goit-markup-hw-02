@@ -362,6 +362,14 @@ h2 {
     margin-bottom: 72px;
 }
 
+.icon-client {
+    width: 104px;
+    width: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99
+}
+
 /* Portfolio Page */
 
 .button-row {
@@ -514,14 +522,14 @@ footer div {
     text-transform: uppercase;
 }
 
-.social-media {
+.footer-social-media {
     display: flex;
     flex-direction: column;
     margin-left: 120px;
     gap: 16px;
 }
 
-#footer-social-media {
+#social-media-title {
     color: #FFF;
     font-family: Roboto;
     font-size: 16px;
@@ -532,12 +540,12 @@ footer div {
     margin-bottom: 0px;
 }
 
-.social-icons-footer {
+.socmed-icons-footer {
     display: flex;
     gap: 16px;
 }
 
-.social-media-icons-svg {
+.socmed-icons-svg {
     display: flex;
     height: 40px;
     flex-shrink: 0;

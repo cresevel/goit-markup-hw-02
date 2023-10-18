@@ -345,6 +345,23 @@ li.team-member {
     background-image: url(https://github.com/cresevel/goit-markup-hw-04/blob/7857dbd628a8a2a46da4f27313c6bcc7cc998095/images/Ellipse.svg);
 }
 
+
+/* Section 4 */
+
+h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
 /* Portfolio Page */
 
 .button-row {
@@ -451,48 +468,77 @@ li.portfolio-image {
 
 /* Footer */
 
-
-.footer {
-    margin: 0;
-    padding: 101px 999px 100px 156px;
+footer {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-left: 156px;
     height: 312px;
-    background-color: #2E2F42;
-    color: #F4F4FD;
-    box-sizing: border-box;
-
+    display: flex;
 }
 
-.webstudio-footer {
-    margin: 0;
-    color:#F4F4FD;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: 0.54px;
-}
-
-p .footer-logo {
-    margin: 0;
-    padding: 0;
+.web-logo {
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
-    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-bottom: 17.5px;
+}
+
+footer p {
+    width: 264px;
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 100px;
+}
+
+footer div {
+    padding-top: 101px;
+}
+
+.studio-logo {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
-.footer-link {
-    color:#FFFFFF;
+.social-media {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    gap: 16px;
 }
 
-.social-links {
-    flex-shrink: 0;
+#footer-social-media {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 0px;
+}
+
+.social-icons-footer {
     display: flex;
-    gap: 8px;
+    gap: 16px;
+}
+
+.social-media-icons-svg {
+    display: flex;
+    height: 40px;
+    flex-shrink: 0;
 }

@@ -348,6 +348,15 @@ li.team-member {
 
 /* Section 4 */
 
+.customers {
+    margin-bottom: 120px;
+}
+
+.customers ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -368,10 +377,6 @@ h2 {
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #8E8F99
-}
-
-.customers {
-    margin-bottom: 120px;
 }
 
 /* Portfolio Page */

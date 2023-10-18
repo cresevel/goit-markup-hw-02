@@ -348,13 +348,14 @@ li.team-member {
 
 /* Section 4 */
 
+
 .customers {
     margin-bottom: 120px;
 }
 
 .customers ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 h2 {

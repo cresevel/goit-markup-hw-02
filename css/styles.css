@@ -68,8 +68,6 @@ a {
 
 nav.menu {
     margin: 24px 0px 24px 0px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation {
@@ -209,13 +207,6 @@ h1.banner-text {
 
 /* Section 1 */
 
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    fill: #F4F4FD;
-}
 
 ul.section-one-items {
     padding-top: 120px;
@@ -270,61 +261,20 @@ li.team-member {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.svg {
-    padding: 24px 100px 24px 100px;
-    background-color: #F4F4FD;
-    background-image: url (https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
-}
-
-.team-social-icons {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    column-gap: 12px;
-    padding-bottom: 32px;
-}
-}
-
-.ellipse {
-    display: flex;
-    flex-shrink: 0;
-    padding: 12px;
-    background-image: url(https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
-}
-
-.socmed-icons {
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.social-footer {
-    margin-left: 120px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.socmed-footer {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-}
-
-.socmed-svg {
-    display: flex;
-    width: 16px;
-    height: 16px;
-    padding: 12px;
-    background-image: url(https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
+.icon {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    stroke-width: 0;
+    fill: #F4F4FD;
+    padding: 10px;
+    margin: 9px;
 }
 
 
 /* Section 4 */
-
 
 .customers {
     margin-bottom: 120px;
@@ -357,6 +307,13 @@ h2 {
     border-radius: 4px;
     border: 1px solid #8E8F99
 }
+
+.icon-client:hover {
+    color: #404BBF;
+    border-color: #404BBF;
+}
+
+
 
 /* Portfolio Page */
 
@@ -538,3 +495,4 @@ footer div {
     height: 40px;
     flex-shrink: 0;
 }
+

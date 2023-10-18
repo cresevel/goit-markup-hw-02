@@ -358,7 +358,7 @@ li.team-member {
 }
 
 h2 {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;

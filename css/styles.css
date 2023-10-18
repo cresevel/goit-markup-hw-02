@@ -68,6 +68,8 @@ a {
 
 nav.menu {
     margin: 24px 0px 24px 0px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation {
@@ -132,48 +134,12 @@ nav.menu {
     justify-content: flex-end;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-
-li>a {
-    position: relative;
-}
-
-.item>a::after {
-    content: "";
-    display: block;
-    margin: auto;
-    height: 4px;
-    width: 0;
-    top: 5px;
-    background: transparent;
-    transition: all 0.3s;
-}
-
-
-.item>a:hover::after,
-.item>a.active-nav::after {
-    width: 100%;
-    background: #404BBF;
-}
-
-.nav-contact>a:hover::after,
-.nav-contact>a.active-nav::after {
-    width: 100%;
-    color: #404BBF;
-}
 
 /* Hovered links */
 .navigation :hover, :active {
     color: #4D5AE5;
 }
 
-.navigation-contact :hover, :active {
-    color: #404BBF;
-
-}
 
 
 /* Main Banner */
@@ -277,17 +243,6 @@ ul.section-two-items {
     gap: 24px;
 }
 
-.svg {
-    padding: 24px 100px 24px 100px;
-    background-color: #F4F4FD;
-}
-
-.ellipse {
-  display: flex;
-    flex-shrink: 0;
-    padding: 12px;
-    background-image: url(images/Ellipse.svg);
-}
 
 /* Section 3 */
 
@@ -313,6 +268,19 @@ li.team-member {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.svg {
+    padding: 24px 100px 24px 100px;
+    background-color: #F4F4FD;
+    background-image: url (https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
+}
+
+.ellipse {
+    display: flex;
+    flex-shrink: 0;
+    padding: 12px;
+    background-image: url(https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
 }
 
 .socmed-icons {
@@ -342,7 +310,7 @@ li.team-member {
     width: 16px;
     height: 16px;
     padding: 12px;
-    background-image: url(https://github.com/cresevel/goit-markup-hw-04/blob/7857dbd628a8a2a46da4f27313c6bcc7cc998095/images/Ellipse.svg);
+    background-image: url(https: //cresevel.github.io/goit-markup-hw-04/images/Ellipse.svg);
 }
 
 
@@ -373,7 +341,7 @@ h2 {
 }
 
 .icon-client {
-    margin: 0 24px;
+    margin: 0 8px;
     width: 168px;
     height: 88px;
     padding: 0;
